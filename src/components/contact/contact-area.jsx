@@ -38,7 +38,7 @@ const ContactArea = () => {
                         <a href="mailto:contact@shofy.com">contact@norexfashion.com</a>
                       </p>
                       <p data-info="phone">
-                        <a href="tel:670-413-90-762">+234 808 125 8048</a>
+                        <a href="tel:+234-808-125-8048">+234 808 125 8048</a>
                       </p>
                     </div>
                   </div>
@@ -54,7 +54,7 @@ const ContactArea = () => {
                           href="https://maps.app.goo.gl/wf82jNPFQ8g1c2Jr9"
                           target="_blank"
                         >
-                          84 sleepy hollow st. <br /> Warri, Delta State 1432
+                          P. T. I. Rd, Ovie Palace Road, Effurun GRA, Warri 330102 <br /> Delta State, Nigeria
                         </a>
                       </p>
                     </div>
