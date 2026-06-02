@@ -35,7 +35,7 @@ const ContactArea = () => {
                     </div>
                     <div className="tp-contact-info-content">
                       <p data-info="mail">
-                        <a href="mailto:contact@shofy.com">contact@norexfashion.com</a>
+                        <a href="mailto:contact@norexfashion.com">contact@norexfashion.com</a>
                       </p>
                       <p data-info="phone">
                         <a href="tel:+234-808-125-8048">+234 808 125 8048</a>
@@ -51,7 +51,7 @@ const ContactArea = () => {
                     <div className="tp-contact-info-content">
                       <p>
                         <a
-                          href="https://maps.app.goo.gl/wf82jNPFQ8g1c2Jr9"
+                          href="https://www.google.com/maps/place/Norex+fashion+school/@5.5625903,5.7870503,16.75z/data=!4m6!3m5!1s0x1041adf981b3aea1:0x6af65aa015249d64!8m2!3d5.5626405!4d5.7893999!16s%2Fg%2F11ptyk5z92?entry=ttu&g_ep=EgoyMDI2MDUzMS4wIKXMDSoASAFQAw%3D%3D"
                           target="_blank"
                         >
                           P. T. I. Rd, Ovie Palace Road, Effurun GRA, Warri 330102 <br /> Delta State, Nigeria
