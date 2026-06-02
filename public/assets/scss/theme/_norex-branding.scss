@@ -1,0 +1,274 @@
+@use '../utils' as *;
+
+/*-----------------------------------------------------------------------------------
+  Norex Fashion School - Brand Color Scheme
+  Black (#1A1A1A), Gold (#D4AF37), Yellow (#FFD700)
+-----------------------------------------------------------------------------------*/
+
+// Root CSS Variables for Gold & Black Theme
+:root {
+  // Primary Brand Colors
+  --norex-black: #1A1A1A;
+  --norex-gold: #D4AF37;
+  --norex-gold-light: #FFD700;
+  --norex-gold-dark: #B8860B;
+  --norex-white: #FFFFFF;
+
+  // Accent Colors
+  --norex-text-dark: #333333;
+  --norex-text-light: #666666;
+  --norex-border: #D4AF37;
+  --norex-bg-light: #F9F9F9;
+}
+
+// Button Styles with Norex Colors
+.tp-btn {
+  &.tp-btn-primary,
+  &.tp-btn-border {
+    background-color: var(--norex-gold) !important;
+    color: var(--norex-black) !important;
+    border-color: var(--norex-gold) !important;
+
+    &:hover {
+      background-color: var(--norex-gold-dark) !important;
+      border-color: var(--norex-gold-dark) !important;
+    }
+  }
+
+  &.tp-btn-black {
+    background-color: var(--norex-black) !important;
+    color: var(--norex-gold) !important;
+  }
+}
+
+// Header Styles
+.tp-header-area {
+  background-color: var(--norex-white);
+  color: var(--norex-black);
+
+  .tp-header-info-item a {
+    color: var(--norex-black);
+
+    &:hover {
+      color: var(--norex-gold);
+    }
+  }
+}
+
+// Navigation Links
+.tp-main-menu-content > li > a {
+  color: var(--norex-black);
+
+  &:hover {
+    color: var(--norex-gold);
+  }
+}
+
+// Ensure all text in headers is visible
+.tp-header-area,
+.tp-header-bottom {
+  p, span, li, label, h1, h2, h3, h4, h5, h6 {
+    color: var(--norex-black);
+  }
+}
+
+// Footer Styles
+.tp-footer-area {
+  background-color: var(--norex-white);
+  color: var(--norex-black);
+  border-top: 3px solid var(--norex-gold);
+
+  p, span, li, label, h1, h2, h3, h4, h5, h6 {
+    color: var(--norex-black);
+  }
+
+  .tp-footer-widget-title {
+    color: var(--norex-gold);
+  }
+
+  a {
+    color: var(--norex-black);
+
+    &:hover {
+      color: var(--norex-gold);
+    }
+  }
+
+  .tp-footer-desc {
+    color: var(--norex-text-dark);
+  }
+}
+
+// Footer Social Icons
+.tp-footer-social {
+  a {
+    background-color: var(--norex-white);
+    color: var(--norex-black);
+    border: 2px solid var(--norex-gold);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: var(--norex-gold);
+      color: var(--norex-black);
+      border-color: var(--norex-gold);
+    }
+  }
+}
+
+// Accent Elements
+.tp-section-title {
+  h2 {
+    color: var(--norex-black);
+
+    &::after {
+      background-color: var(--norex-gold);
+    }
+  }
+}
+
+// Links & Interactive Elements
+a {
+  color: var(--norex-gold);
+
+  &:hover {
+    color: var(--norex-gold-dark);
+  }
+
+  // Ensure links are readable on dark backgrounds
+  .tp-header-area &,
+  .tp-footer-area & {
+    color: var(--norex-white);
+
+    &:hover {
+      color: var(--norex-gold);
+    }
+  }
+}
+
+// Badge Styles
+.tp-badge,
+.tp-header-action-badge {
+  background-color: var(--norex-gold);
+  color: var(--norex-black);
+}
+
+// Category & Product Items
+.tp-banner-item-2:hover {
+  border-color: var(--norex-gold);
+}
+
+// Form Inputs & Focus States
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--norex-gold) !important;
+  box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25) !important;
+}
+
+// Testimonial Section
+.tp-testi-item {
+  &:hover {
+    border-color: var(--norex-gold);
+  }
+}
+
+// Price & Sale Badges
+.tp-product-badge {
+  background-color: var(--norex-gold);
+  color: var(--norex-black);
+}
+
+// Active States
+.active {
+  color: var(--norex-gold) !important;
+
+  &::before,
+  &::after {
+    background-color: var(--norex-gold);
+  }
+}
+
+// Breadcrumb Navigation
+.breadcrumb-item.active {
+  color: var(--norex-gold);
+}
+
+// Pagination
+.tp-pagination-item {
+  &.active {
+    background-color: var(--norex-gold);
+    border-color: var(--norex-gold);
+    color: var(--norex-black);
+  }
+}
+
+// Star Ratings
+.rating-item i {
+  color: var(--norex-gold);
+}
+
+// Dividers & Borders
+hr {
+  border-color: var(--norex-gold);
+}
+
+.tp-divider {
+  background-color: var(--norex-gold);
+}
+
+// Highlight Text
+mark,
+.highlight {
+  background-color: rgba(212, 175, 55, 0.2);
+  color: var(--norex-black);
+}
+
+// Logo & Branding
+.logo img {
+  max-height: 50px;
+  width: auto;
+  transition: all 0.3s ease;
+
+  .tp-header-area & {
+    filter: brightness(1.2);
+  }
+}
+
+.tp-footer-logo img {
+  max-height: 40px;
+  width: auto;
+  filter: brightness(1.2) saturate(1.2);
+}
+
+// Special: Academy/Course Badges
+.academy-badge,
+.course-badge {
+  background-color: var(--norex-gold);
+  color: var(--norex-black);
+  border: 2px solid var(--norex-black);
+}
+
+// Animation Accent Colors
+@keyframes norex-shine {
+  0% { box-shadow: 0 0 0 0 var(--norex-gold); }
+  50% { box-shadow: 0 0 0 10px rgba(212, 175, 55, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+}
+
+// CTA Buttons with Norex Theme
+.cta-btn {
+  background: linear-gradient(135deg, var(--norex-gold) 0%, var(--norex-gold-dark) 100%);
+  color: var(--norex-black);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+  }
+}

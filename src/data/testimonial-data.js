@@ -7,54 +7,54 @@ import user_4 from '@assets/img/users/user-4.jpg';
 export const fashion_testi_data = [
   {
     id:1,
-    review:4,
-    desc:'“ How you use the city or town name is up to you. All results may be freely used in any work.”',
+    review:5,
+    desc:'”The fashion design training at Norex transformed my skills from basics to professional level. Highly recommended!”',
     user:user_2,
-    name:'Theodore Handle',
-    designation:'CO Founder'
+    name:'Amara Okafor',
+    designation:'Fashion Designer'
   },
   {
     id:2,
     review:5,
-    desc:'“Very happy with our choice to take our daughter to Brave care. The entire team was great! Thank you!”',
+    desc:'”I started my own fashion brand after completing the entrepreneurship coaching. Norex gave me the knowledge I needed to succeed!”',
     user:user_3,
-    name:'John Smith',
-    designation:'UI/UX Designer'
+    name:'Chioma Eze',
+    designation:'Fashion Entrepreneur'
   },
   {
     id:3,
-    review:3,
-    desc:'“Thanks for all your efforts and teamwork over the last several months!  Thank you so much”',
+    review:5,
+    desc:'”The bespoke tailoring service delivered exactly what I envisioned. Exceptional quality and attention to detail!”',
     user:user_4,
-    name:'Salim Rana',
-    designation:'Web Developer'
+    name:'Tunde Adebayo',
+    designation:'Client'
   },
 ]
 
-// beauty testimonial data 
+// beauty testimonial data
 export const beauty_testi_data = [
   {
     id:1,
-    review:4,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
+    review:5,
+    desc:'The sewing and garment construction classes equipped me with practical skills I use in my daily work. Fantastic instructors!',
     user:user_1,
-    name:'Jake Weary',
-    designation:'CO Founder'
+    name:'Nneka Williams',
+    designation:'Garment Constructor'
   },
   {
     id:2,
-    review:3.5,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
+    review:5,
+    desc:'Norex empowered me with design skills and business knowledge. I now run a successful clothing line!',
     user:user_2,
-    name:'Salim Rana',
-    designation:'Web Developer'
+    name:'Zainab Mohammed',
+    designation:'Fashion Business Owner'
   },
   {
     id:3,
     review:5,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
+    desc:'The custom design service was amazing. They brought my vision to life with professional and timely delivery!',
     user:user_3,
-    name:'Selina Gomz',
-    designation:'CO Founder'
+    name:'Victoria Nwosu',
+    designation:'Bride'
   },
 ]

@@ -23,7 +23,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                         <Image src={logo} alt="logo" />
                       </Link>
                     </div>
-                    <p className="tp-footer-desc">We are a dynamic team of full stack developers and designers crafting high-quality web applications</p>
+                    <p className="tp-footer-desc">Norex Fashion School - Premium fashion design, bespoke tailoring, and professional fashion education empowering aspiring designers and entrepreneurs.</p>
                     <div className="tp-footer-social">
                       {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
                         <i className={s.icon}></i>
@@ -50,14 +50,14 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               </div>
               <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="tp-footer-widget footer-col-3 mb-50">
-                  <h4 className="tp-footer-widget-title">Information</h4>
+                  <h4 className="tp-footer-widget-title">Services</h4>
                   <div className="tp-footer-widget-content">
                     <ul>
-                      <li><a href="#">Our Story</a></li>
-                      <li><a href="#">Careers</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms & Conditions</a></li>
-                      <li><a href="#">Latest News</a></li>
+                      <li><a href="/academy">Fashion Academy</a></li>
+                      <li><a href="#">Custom Design</a></li>
+                      <li><a href="#">Consultations</a></li>
+                      <li><a href="#">Empowerment Programs</a></li>
+                      <li><a href="/portfolio">Our Portfolio</a></li>
                       <li><a href="#">Contact Us</a></li>
                     </ul>
                   </div>
@@ -65,11 +65,11 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               </div>
               <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="tp-footer-widget footer-col-4 mb-50">
-                  <h4 className="tp-footer-widget-title">Talk To Us</h4>
+                  <h4 className="tp-footer-widget-title">Get In Touch</h4>
                   <div className="tp-footer-widget-content">
                     <div className="tp-footer-talk mb-20">
-                      <span>Got Questions? Call us</span>
-                      <h4><a href="tel:670-413-90-762">+966 595 035 008</a></h4>
+                      <span>Design & Education Inquiries</span>
+                      <h4><a href="tel:+234800000000">+234 800 000 0000</a></h4>
                     </div>
                     <div className="tp-footer-contact">
                       <div className="tp-footer-contact-item d-flex align-items-start">
@@ -79,7 +79,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           </span>
                         </div>
                         <div className="tp-footer-contact-content">
-                          <p><a href="mailto:shofy@support.com">swe.hamedhasan@gmail.com</a></p>
+                          <p><a href="mailto:info@norexfashionschool.com">info@norexfashionschool.com</a></p>
                         </div>
                       </div>
                       <div className="tp-footer-contact-item d-flex align-items-start">
@@ -89,7 +89,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           </span>
                         </div>
                         <div className="tp-footer-contact-content">
-                          <p><a href="https://www.google.com/maps/place/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA/@44.3304966,-75.4552367,17z/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4" target="_blank">79 Sleepy Hollow St. <br /> Jamaica, Jeddah 1432</a></p>
+                          <p>Nigeria <br /> Norex Fashion School</p>
                         </div>
                       </div>
                     </div>
@@ -105,8 +105,8 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
-                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
-                      <Link href="/">{" "}❤</Link>.
+                    <p>© {new Date().getFullYear()} Norex Fashion School. All Rights Reserved |
+                      <Link href="/">{" "} Transforming Fashion through Education & Excellence</Link>.
                     </p>
                   </div>
                 </div>

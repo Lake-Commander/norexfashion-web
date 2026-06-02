@@ -17,7 +17,7 @@ import Footer from '@/layout/footers/footer';
 export default function Home() {
   return (
     <Wrapper>
-      <SEO pageTitle='Home'/>
+      <SEO pageTitle='Norex Fashion School - Premium Design & Fashion Education'/>
       <HeaderTwo/>
       <FashionBanner/>
       <FashionCategory/>

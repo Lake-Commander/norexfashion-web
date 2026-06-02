@@ -2,7 +2,12 @@ $colors: (
     'common': (
         'white': #ffffff,
         'black-solid': #000,
-        'black': #010F1C,
+        'black': #1A1A1A,
+    ),
+    'gold': (
+        '1': #D4AF37,
+        '2': #FFD700,
+        '3': #FFA500,
     ),
     'yellow': (
         '1': #FFB342,
@@ -29,8 +34,8 @@ $colors: (
         '1': #FF6736,
     ),
     'heading': (
-        'primary': #010F1C,
-        'secondary': #021D35,
+        'primary': #1A1A1A,
+        'secondary': #2D2D2D,
     ),
     'grey': (
         '1':#F6F7F9,
@@ -44,25 +49,25 @@ $colors: (
         '9':#E5E9F2,
     ),
     'text': (
-        'body':#55585B,
-        '1':#767A7D,
-        '2':#55585B,
-        '3':#A0A2A4,
+        'body':#333333,
+        '1':#555555,
+        '2':#666666,
+        '3':#777777,
         '4':#7D7F82,
         '5':#888A8C,
         '6':#90969B,
     ),
     'theme': (
-        'primary': #0989FF,
-        'secondary': #821F40,
-        'brown': #BD844C,
-        'green': #678E61,
+        'primary': #D4AF37,
+        'secondary': #1A1A1A,
+        'accent': #FFD700,
+        'brown': #2D2D2D,
     ),
     'footer': (
         'grey-1': #F4F7F9
     ),
     'border': (
-        'primary': #EAEBED,
+        'primary': #D4AF37,
         'secondary': #F0F2F4,
         '3': #E4E5E9,
         '4': #E6E7E8,
@@ -70,6 +75,7 @@ $colors: (
 );
 
 $white : #fff;
-$black : #010F1C;
-$theme-primary : #0989FF;
-$border-primary : #EAEBED;
+$black : #1A1A1A;
+$theme-primary : #D4AF37;
+$theme-secondary : #1A1A1A;
+$border-primary : #D4AF37;
